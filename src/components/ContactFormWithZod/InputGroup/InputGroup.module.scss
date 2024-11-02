@@ -1,0 +1,11 @@
+.inputGroup {
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: rem-calc(6);
+  }
+  .errorMessage {
+    margin-top: rem-calc(4);
+    color: #ff0000;
+  }
+}
