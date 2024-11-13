@@ -9,12 +9,14 @@ type AppFormInputProps = {
   name: string;
   label: string;
   placeholder: string;
+  type: string;
 };
 
 export const AppFormInput: React.FC<AppFormInputProps> = ({
   name,
   label,
   placeholder,
+  type,
 }) => {
   const {
     register,
@@ -31,7 +33,7 @@ export const AppFormInput: React.FC<AppFormInputProps> = ({
       </label>
       <input
         {...register(name)}
-        type='text'
+        type={type}
         id={name}
         placeholder={placeholder}
       />

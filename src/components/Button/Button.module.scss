@@ -4,12 +4,12 @@
   box-sizing: border-box;
   height: rem-calc(45);
   padding: 0 rem-calc(20);
-  border-radius: rem-calc(5);
-  font-weight: 500;
+  border-radius: rem-calc(8);
+  font-weight: 600;
   text-align: center;
 
   &.primary {
-    background: #0093dd;
+    background: #7f56d9;
     color: #fff;
 
     &:disabled {

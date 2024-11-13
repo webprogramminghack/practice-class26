@@ -1,4 +1,7 @@
 label {
+  font-size: 0.875rem;
+  font-weight: 500;
+
   &.required::after {
     content: '*';
     color: #ff0000;
@@ -7,5 +10,7 @@ label {
 }
 
 input {
-  padding: rem-calc(8);
+  height: 2.75rem;
+  border: 1px solid #767676;
+  border-radius: rem-calc(8);
 }
